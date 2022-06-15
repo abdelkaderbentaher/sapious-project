@@ -1,0 +1,116 @@
+* {
+  font-family: Poppins;
+}
+
+.logo-img {
+  width: 120px;
+  height: 40px;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+nav {
+  float: right;
+  margin-top: 20px;
+}
+h1 {
+  color: #333;
+  font-size: 41px;
+}
+header,
+body {
+  background-color: #edf9ff;
+}
+
+a {
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+a:link,
+a:visited {
+  color: #555;
+}
+a:hover {
+  color: #07a3e9;
+}
+.btn-free-trial {
+  color: #fff;
+  background-color: #07a3e9;
+
+  width: 120px;
+  height: 25px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+.customers {
+  display: flex;
+  align-self: center;
+  margin-top: 20px;
+}
+.customers img {
+  width: 44px;
+  height: 44px;
+  border-radius: 22px;
+  float: left;
+  border: 3px solid #07a3e9;
+  margin-right: -13.5px;
+}
+.customers img:last-of-type {
+  margin-right: 0px;
+}
+.customers p {
+  margin: 15px;
+}
+.customers p:first-child {
+  color: #07a3e9;
+}
+.graduate {
+  height: 250px;
+  width: 400px;
+  float: right;
+}
+strong {
+  color: #07a3e9;
+}
+
+.intro-p {
+  text-transform: uppercase;
+  padding-bottom: 5px;
+}
+.intro h1,
+.btn {
+  margin: 20px 0;
+}
+.btn button {
+  color: #333;
+  background-color: #fff;
+  width: 140px;
+}
+.btn button:first-child {
+  color: #fff;
+  background-color: #07a3e9;
+  width: 180px;
+  margin-right: 5px;
+}
+.btn button {
+  padding: 7px;
+}
+.intro-p2 {
+  margin-bottom: 5px;
+}
+button {
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.intro {
+  float: left;
+}
+.container {
+  width: 1000px;
+  margin: 3% auto;
+}
+.part1 {
+  width: 1000px;
+}
