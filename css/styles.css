@@ -150,16 +150,129 @@ h3 {
   display: flex;
   gap: 340px;
 }
-.steps-instr{
+.steps-instr {
   line-height: 1.5;
 }
-.steps-img2{
+.steps-img2 {
   margin-top: 60px;
 }
-.steps-img1{
+.steps-img1 {
   margin-top: 50px;
 }
-.part2{
+.part2 {
   width: 50%;
   margin: 0 25%;
+}
+.part3 {
+  width: 100%;
+  height: auto;
+  padding: 40px 5px 0 60px;
+  background-color: #edf9ff;
+  margin-top: 10%;
+  display: flex;
+  gap: 40px;
+}
+.cmt img {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  margin-bottom: 5px;
+}
+.part3 p {
+  line-height: 1.5;
+  width: 460px;
+}
+.cmt {
+  display: flex;
+  gap: 40px;
+}
+.author {
+  margin: 15px 0px;
+}
+.img img {
+  width: 200px;
+  height: 180px;
+  margin: 5px;
+}
+.part4 {
+  width: 100%;
+  height: auto;
+  padding: 40px 25%;
+  margin-top: 10%;
+}
+.cards {
+  display: flex;
+  gap: 40px;
+  margin-left: 10%;
+}
+.card1,
+.card2 {
+  border: 4px solid #edf9ff;
+  width: 350px;
+  height: 500px;
+  border-radius: 10px;
+  
+}
+.card-tittle {
+  margin: 40px 22%;
+  font-size: 17px;
+}
+.card-price {
+  margin-left: 33%;
+  margin: 25px 33%;
+}
+.cards p:first-of-type {
+  padding: 20px;
+}
+.cards p {
+  margin-left: 10%;
+  padding: 15px;
+}
+.mark{
+  padding-right: 5px;
+}
+.btn-get-started{
+  padding: 10px 20px;
+  margin: 20px 20%;
+  width: 200px;
+  color: #fff;
+  background-color: #07a3e9;
+}
+.card2{
+  background-color: #edf9ff;
+  position: relative;
+}
+.last{
+  padding: 40px 25%;
+}
+.card2 .band{
+  position: absolute;
+  top: -2px;
+  right: -4px;
+  width: 200px;
+  height: 160px;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  overflow: hidden;
+
+}
+.card2 .band::after{
+  content: 'Best Value';
+  font-size: 15px;
+  position: absolute;
+  width: 90%;
+  height: 30px;
+  background: #ffd43b ;
+  transform: rotate(45deg) translateY(-22px) translateX(60px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #333;
+  
+  
+
+
 }
