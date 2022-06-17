@@ -125,7 +125,8 @@ button {
   gap: 20px;
 }
 .container2,
-.container3 {
+.container3,
+.container4 {
   width: 100%;
   background-color: #fff;
 }
@@ -323,8 +324,8 @@ form {
 }
 .contact {
   display: flex;
-  gap: 0;
-  margin-top: 50px;
+  justify-content: space-between;
+  margin-top: 120px;
   border-radius: 10px;
   border: 3px solid #edf9ff;
   background-color: #edf9ff;
@@ -332,7 +333,7 @@ form {
 input,
 select {
   margin: 10px 0;
-  width: 200px;
+  width: 240px;
   padding: 7px 10px;
   border: 0;
   border-radius: 10px;
@@ -353,7 +354,47 @@ select {
 .dd {
   width: 300px;
 }
-.contact{
+.contact {
   width: 904px;
-  box-shadow: 0px 5px 50px;
+  box-shadow: 4px 4px 90px -50px;
+}
+.final-part {
+  padding: 10% 25%;
+  display: flex;
+  justify-content: space-between;
+}
+.one img {
+  width: 15px;
+  margin-right: 10px;
+  margin: 10px 10px 10px 0;
+}
+.one img:first-child{
+  width: 100px;
+}
+.one,.two,.three,.four,.five{
+  width: 200px;
+  padding: 20px;
+  
+}
+.final-part p{
+  width: 240px;
+  font-size: 14px;
+  padding: 10px 20px;
+  line-height: 1.5;
+}
+.final-part h4{
+  padding:10px 20px;
+  font-size: 15px;
+  font-weight: 600;
+}
+.two{
+  padding-right: 40px;
+}
+.one p{
+ padding-left:0px ;
+ width: 225px;
+
+}
+.four,.five{
+  margin-left: -40px;
 }
