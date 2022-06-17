@@ -16,13 +16,14 @@ h3 {
   font-size: 41px;
 }
 header,
-body {
+.container {
   background-color: #edf9ff;
 }
 header {
   padding: 10px 50px;
   display: flex;
-  gap: 1220px;
+  gap: 800px;
+  margin-bottom: -80px;
 }
 nav {
   margin-top: 10px;
@@ -62,12 +63,13 @@ button {
 
 .container,
 .container2 {
-  padding: 50px 0px;
-  width: 1000px;
+  padding: 60px 0;
+  width: 100%;
   margin: 5% auto;
 }
 .part1 {
-  width: 1000px;
+  width: 85%;
+  padding: 20px 0 20px 15%;
 }
 .customers-img img {
   width: 40px;
@@ -122,7 +124,8 @@ button {
   display: flex;
   gap: 20px;
 }
-.container2 {
+.container2,
+.container3 {
   width: 100%;
   background-color: #fff;
 }
@@ -172,6 +175,12 @@ h3 {
   display: flex;
   gap: 40px;
 }
+.text {
+  width: 800px;
+}
+.img {
+  width: 800px;
+}
 .cmt img {
   width: 50px;
   height: 50px;
@@ -180,7 +189,7 @@ h3 {
 }
 .part3 p {
   line-height: 1.5;
-  width: 460px;
+  width: 400px;
 }
 .cmt {
   display: flex;
@@ -188,6 +197,13 @@ h3 {
 }
 .author {
   margin: 15px 0px;
+}
+.img {
+  display: flex;
+}
+.cmt2,
+.cmt1 {
+  margin: 100px 0;
 }
 .img img {
   width: 200px;
@@ -211,11 +227,12 @@ h3 {
   width: 350px;
   height: 500px;
   border-radius: 10px;
-  
 }
+
 .card-tittle {
   margin: 40px 22%;
   font-size: 17px;
+  width: 200px;
 }
 .card-price {
   margin-left: 33%;
@@ -228,42 +245,41 @@ h3 {
   margin-left: 10%;
   padding: 15px;
 }
-.mark{
+.mark {
   padding-right: 5px;
 }
-.btn-get-started{
+.btn-get-started {
   padding: 10px 20px;
   margin: 20px 20%;
   width: 200px;
   color: #fff;
   background-color: #07a3e9;
 }
-.card2{
+.card2 {
   background-color: #edf9ff;
   position: relative;
 }
-.last{
+.last {
   padding: 40px 25%;
 }
-.card2 .band{
+.card2 .band {
   position: absolute;
   top: -2px;
   right: -4px;
   width: 200px;
-  height: 160px;
+  height: 120px;
   display: flex;
   justify-content: center;
   justify-items: center;
   overflow: hidden;
-
 }
-.card2 .band::after{
-  content: 'Best Value';
+.card2 .band::after {
+  content: "Best Value";
   font-size: 15px;
   position: absolute;
   width: 90%;
   height: 30px;
-  background: #ffd43b ;
+  background: #ffd43b;
   transform: rotate(45deg) translateY(-22px) translateX(60px);
   display: flex;
   justify-content: center;
@@ -271,8 +287,73 @@ h3 {
   text-transform: uppercase;
   font-weight: 600;
   color: #333;
-  
-  
+}
+.part5 {
+  width: 50%;
+  margin: 0 25%;
+  padding-bottom: 10%;
+}
+.ways {
+  display: flex;
+  gap: 60px;
+}
 
+.ways h2 {
+  padding: 20px 0;
+  color: #333;
+}
+.ways p {
+  line-height: 1.5;
+  width: 200px;
+}
+.contact img {
+  width: 250px;
+  height: 300px;
+}
+.contact h3 {
+  font-size: 30px;
+  color: #07a3e9;
+}
+.contact p {
+  padding: 15px 0 30px 0;
+}
+form {
+  display: flex;
+  gap: 20px;
+}
+.contact {
+  display: flex;
+  gap: 0;
+  margin-top: 50px;
+  border-radius: 10px;
+  border: 3px solid #edf9ff;
+  background-color: #edf9ff;
+}
+input,
+select {
+  margin: 10px 0;
+  width: 200px;
+  padding: 7px 10px;
+  border: 0;
+  border-radius: 10px;
+}
+.contact button {
+  width: 200px;
+  margin-top: 29px;
+  border-radius: 5px;
+  padding: 7px 10px;
+  background-color: #07a3e9;
+  color: #fff;
+}
+.card-contact-info {
+  margin: 10px 0 20px 30px;
+}
 
+.ddd,
+.dd {
+  width: 300px;
+}
+.contact{
+  width: 904px;
+  box-shadow: 0px 5px 50px;
 }
